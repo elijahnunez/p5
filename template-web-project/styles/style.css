@@ -11,6 +11,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   background-color: aliceblue;
   padding: 10px;
+  margin-right: 10px;
   outline-style: ridge;
   outline-width: 3px;
 }
@@ -24,6 +25,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   background-color: aliceblue;
   margin-top: 10px;
+  margin-right: 10px;
   padding: 10px;
   outline-style: ridge;
   outline-width: 3px;
