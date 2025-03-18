@@ -39,6 +39,72 @@ h1 {
   outline-style: ridge;
   outline-color: darkred;
 }
+#tvshape {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background: #0809fe;
+  border-radius: 50% / 10%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tvshape::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+#tvshape iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#tvshape2 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background: #0809fe;
+  border-radius: 50% / 10%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tvshape2::before {
+  content: "";
+  position: absolute;
+  float: right;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+#tvshape2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
 #coqui {
   margin-top: 10px;
