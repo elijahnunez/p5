@@ -54,7 +54,7 @@ p{
 }
 
 .top {
-  display: flex;
+  display: grid;
 }
 
 .mid {
@@ -97,6 +97,7 @@ p{
 }
 
 .bottom {
+  display: value;;
   margin-top: 10px;
   padding-top: 5px;
 }
