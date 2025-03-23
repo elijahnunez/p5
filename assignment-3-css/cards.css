@@ -1,0 +1,44 @@
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  .cards {
+    display:flex;
+
+  }
+
+  .carda, .cardc {
+        border-radius: 5px;    
+        outline: 1px solid black;
+
+  }
+
+  .cardb {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .cardc h2{
+    margin: 10px;
+    background-color: pink;
+    box-shadow: 2px 2px lightgray;
+  }
+
+  .cardd {
+    border-radius: 5px;  
+    outline: 1px solid blue;
+  }
+
+  .cardd h2 {
+    color:  rgb(248, 80, 198);
+  }
+
+
+  
