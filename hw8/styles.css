@@ -4,18 +4,23 @@ html {
     font-family: “Figtree”, sans-serif;
     color: #EF5504; 
     background-color: lightyellow;
+    margin: 0px;
+    padding: 0px;
 }
 header{
-    background-color: #EF5504;
-    background-size: cover;
+    border-top: 15px #EF5504 solid;
+    border-bottom: 10px  #f2ae89 solid;
 }
+
 #flex-container {
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-weight: 1000;
+    font-size: 45px;
 }
 
 .flex-item:first-child {
+
     justify-content: center;
     text-align: center;
 }
@@ -33,53 +38,64 @@ header{
     width: 50vw;
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
+}
+
+.row1 {
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.row2 {
+    margin-bottom: 0;
+    font-size: 70px;
 }
 
 .boxrow {
     display: flex;
     align-content: center;
+    margin: 10px;
 }
 
 .rectangle {
    margin: 5px;
-    padding: 10px;
-    height: 30px;
-    width: 25px;
+   padding: 10px;
+    height: 6vh;
+    width: 5vw;    
     background-color:#AB7255;
   }
 
 .longrect {
     margin: 5px;
     padding: 10px;
-    height: 60px;
-    width: 25px;
+    height: 15vh;
+    width: 5vw;
     background-color:#AB7255;
   }
 
-.flex-intemB {
+.flex-itemB {
     display: flex;
-    width: 100vw;
-    margin: 10px;
+    flex-direction: row;
+    width: -50vw;
+
 }
 
 .bigrect {
     margin: 5px;
-    padding: 10px;
-    height: 55vh;
-    width: 20vh;
+    height: 100%;
+    width: 30vh;
     background-color:#AB7255;
   }
+  
 .right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 5px;
+
 }
 
 .medrect{
     margin: 5px;
-    padding: 10px;
-    height: 25vh;
-    width: 20vh;
+    padding: 5px;
+    height: 50vh;
+    width: 25vw;
     background-color:#AB7255;
 }
