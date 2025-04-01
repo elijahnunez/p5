@@ -13,6 +13,8 @@
     width: 98vw;
     height: 25vh;
     display: flex;
+    justify-content: center;
+    flex-wrap: no-wrap;
   }
 
   h2{
