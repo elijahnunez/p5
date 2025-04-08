@@ -22,6 +22,11 @@ html{
     pointer-events: none;
   }
 
+  #openPopup {
+    border-radius: 10px;
+    font-family: 'Figtree', sans-serif;
+    color-scheme: light dark;
+  }
 .popup-container {
     position: fixed; /* Or absolute */
     top: 0;
