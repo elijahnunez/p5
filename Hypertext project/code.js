@@ -14,7 +14,7 @@ bounceTrigger.addEventListener("click", () => {
   if (imagesBouncing) return; // prevent duplicates
   imagesBouncing = true;
 
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 6; i++) {
     const img = document.createElement("img");
     img.src = imageSrcs[Math.floor(Math.random() * imageSrcs.length)];
     img.classList.add("bouncer");
@@ -25,7 +25,7 @@ bounceTrigger.addEventListener("click", () => {
     let dy = 2 + Math.random() * 2;
 
     img.style.position = "absolute";
-    img.style.width = "80px";
+    img.style.width = "180px";
     img.style.left = x + "px";
     img.style.top = y + "px";
     document.body.appendChild(img);
