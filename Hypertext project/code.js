@@ -1,4 +1,4 @@
-const bounceTrigger = document.getElementById("bounceTrigger");
+const bounceTrigger = document.getElementById("bouncingFaces");
 let imagesBouncing = false;
 
 const imageSrcs = [
@@ -44,7 +44,6 @@ bounceTrigger.addEventListener("click", () => {
 
     intervals.push(interval);
   }
-
 });
 
 
