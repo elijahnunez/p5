@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <main>
         <h1> Ode To the Diasporican </h1> 
@@ -31,10 +30,19 @@
            <br>cause my <a href = fajardo.html>Fajardo</a> was <a href = "cityIsland.html">City Island</a> 
            <br>my <a href = "luqillo.html">Luquillo</a>, <a href ="orchardBeach.html">Orchard Beach</a> 
            <br>and summer nights were filled with city noises
-           <br>instead of coquis <audio controls>
-            <source src = "assets/Audio/Coqui Calling.mp3" type="audio/mpeg">
-            coquis
-            </audio>
+           <br>instead of
+           <button id="openPopup">Coquis</button>
+           <div id="popupContainer" class="popup-container">
+             <div class="popup-content">
+               <span class="close-button">&times;</span>
+               <h2>Coquis</h2>
+               <p>Listen to the sound of coquis</p>
+               <audio controls>
+                <source src = "assets/Audio/Coqui Calling.mp3" type="audio/mpeg">
+                coquis
+                </audio>
+             </div>
+           </div> 
            <br>and Puerto Rico
            <br>was just some paradise
            <br>that we only saw in pictures.<br>
@@ -56,5 +64,7 @@
            <br>Puerto Rico nació en mi.
         </p>
     </main>
+    <script src="code.js"></script>
+
 </body>
 </html>
