@@ -21,7 +21,7 @@ html{
     position: absolute;
     top: 0; /* Or top: 50%; */
     left: 0; /* Or right: 50%; */
-    width: 50vw; /* Or desired width */
+    width: 30vw; /* Or desired width */
     height: 100%;
     background-image: url("assets/Img/Coquis.png");
     background-size: cover;
