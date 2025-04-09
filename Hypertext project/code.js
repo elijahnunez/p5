@@ -1,3 +1,5 @@
+
+
 const bounceTrigger = document.getElementById("bouncingFaces");
 let imagesBouncing = false;
 
