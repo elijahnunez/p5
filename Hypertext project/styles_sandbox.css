@@ -28,59 +28,21 @@ html{
     cursor: pointer;
   }
 
-  .bouncer {
+.bouncer {
     position: absolute;
     pointer-events: none;
   }
 
 
-
-  #openPopup {
-    border-radius: 10px;
-    font-family: 'Figtree', sans-serif;
-    color-scheme: light dark;
-  }
-.popup-container {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    display: none; 
-    z-index: 1000; 
+#coquis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin: 5px;
+  margin-right: 10px;
 }
-  
-  .popup-content {
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: 30vw; 
-    height: 100%;
-    background-image: url("assets/Img/Coquis.png");
-    background-size: cover;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: translateX(-100%); /* Initially offscreen */
-    transition: transform 0.3s ease; /* Smooth animation */
-  }
-  
-  .popup-container.show {
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-  }
-  
-  .popup-content.show {
-    transform: translateX(0);
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  }
+
 
   #f {
     background-image: url("assets/Img/Atabex.png");
