@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC 311 Complaints Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>NYC 311 Complaints Dashboard</h1>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <div class="dashboard-card">
+                    <div class="stat-number" id="total-complaints">-</div>
+                    <div class="stat-label">Total Complaints</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dashboard-card">
+                    <div class="stat-number" id="open-complaints">-</div>
+                    <div class="stat-label">Open Complaints</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dashboard-card">
+                    <div class="stat-number" id="top-complaint">-</div>
+                    <div class="stat-label">Most Common Complaint</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dashboard-card">
+                    <div class="stat-number" id="avg-response">-</div>
+                    <div class="stat-label">Avg Response Time</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="dashboard-card">
+                    <h5>Filter by Borough</h5>
+                    <select class="form-select" id="borough-filter">
+                        <option value="all">All Boroughs</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dashboard-card">
+                    <h5>Filter by Complaint Type</h5>
+                    <select class="form-select" id="complaint-filter">
+                        <option value="all">All Complaints</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dashboard-card">
+                    <h5>Filter by Status</h5>
+                    <select class="form-select" id="status-filter">
+                        <option value="all">All Statuses</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Closed">Closed</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="dashboard-card">
+                    <h5>Complaint Density Map</h5>
+                    <div id="map"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dashboard-card">
+                    <h5>Top 10 Complaint Types</h5>
+                    <div style="height: 400px;">
+                        <canvas id="complaint-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

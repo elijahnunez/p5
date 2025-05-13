@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+  font-family: 'Special Elite', 'Courier New', monospace;
+  background-color: #f8f0e3;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 40px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.9;
+  background-image: url('https://www.transparenttextures.com/patterns/concrete-wall.png'); /* adds concrete texture */
+}
+
+h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff3366;
+  text-shadow: 2px 2px #00000033;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.2rem;
+  background-color: #ffffffcc;
+  padding: 25px;
+  border-left: 8px solid #ff3366;
+  border-right: 2px dashed #222;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #222;
+  padding: 12px 24px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ff3366;
+  color: #fffbe6;
+  box-shadow: 0 0 10px #ff3366cc;
+}
+
+  
